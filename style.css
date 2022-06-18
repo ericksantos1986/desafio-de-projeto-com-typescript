@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    display: flex;
+    margin: auto;
+    width: 600px;
+    flex-direction: column;
+    justify-content: start;
+    background-color: aquamarine;
+}
+
+h1{
+    color: darkslategray;
+    padding: 3px 15px 3px 15px ;
+    margin: auto;
+}
+
+.veiculo{
+    display: flex;
+    margin: auto;
+    width: 370px;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.line{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    margin: 10px 5px;
+}
+
+.label {
+    width: 150px;
+}
+input{
+    padding: 2px;
+    margin: 10px 5px 10px 5px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 7px;
+}
+
+.tabela{
+    background: cadetblue;
+    border-color: darkslategrey;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 15px;
+    margin: 10px;
+    width: 600px;
+}
+
+.tabela th {
+    background: darkslategray;
+    color: lightgray;
+    padding: 5px 10px 5px 10px;
+    font-size: 19px;
+}
+
+.tabela tr {
+    background: darkslategray;
+    color: lightgray;
+    border-style: solid;    
+}
+
+.tabela td{
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+}
+
+button{
+    padding: 4px 10px 4px 10px;
+    border-radius: 10px;
+    border-style: none;
+    border: 2px solid cadetblue;
+    background: darkslategray;
+    color: white;
+ 
+}
+
+#cadastrar{
+    font-size: 17px;
+    padding: 7px 20px 7px 20px;
+    margin-bottom: 20px;
+}
